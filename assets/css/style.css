@@ -445,3 +445,152 @@ a{
     color: #8f9aab;
 }
 
+/* ==========================================
+   ANIMAÇÕES
+========================================== */
+
+.hero,
+.choices,
+.results,
+.method,
+.authority{
+
+    animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(35px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ==========================================
+   RESPONSIVO
+========================================== */
+
+@media(max-width:992px){
+
+.hero-grid,
+.method-grid,
+.authority-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.results-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.choice-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.hero{
+
+padding-top:140px;
+
+}
+
+.hero h1{
+
+font-size:3rem;
+
+}
+
+.placeholder{
+
+min-height:380px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.header-content{
+
+height:72px;
+
+}
+
+.hero{
+
+padding-top:120px;
+
+}
+
+.hero h1{
+
+font-size:2.4rem;
+
+}
+
+.hero p{
+
+font-size:1rem;
+
+}
+
+.hero-actions{
+
+flex-direction:column;
+
+}
+
+.btn{
+
+width:100%;
+
+}
+
+.results-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.results h2,
+.method h2,
+.authority h2{
+
+font-size:2rem;
+
+}
+
+.choices h2{
+
+font-size:1.6rem;
+
+}
+
+.placeholder{
+
+min-height:300px;
+
+}
+
+}
+
+section{
+
+overflow:hidden;
+
+}
