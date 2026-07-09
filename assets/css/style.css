@@ -256,3 +256,103 @@ a{
     color:#9ea8ba;
 
 }
+
+/* ==========================================
+   ESCOLHAS / CARDS
+========================================== */
+
+.choices {
+    padding: 40px 0 100px;
+}
+
+.choices h2 {
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+
+.choice-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.choice-card {
+    background: linear-gradient(180deg, #111f38, #0b1628);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 26px;
+    padding: 34px;
+    transition: .3s;
+}
+
+.choice-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(255,140,0,.45);
+}
+
+.choice-card span {
+    color: #ff8c00;
+    font-weight: 800;
+}
+
+.choice-card h3 {
+    font-size: 1.6rem;
+    margin: 16px 0 12px;
+}
+
+.choice-card p {
+    color: #aeb8c8;
+    margin-bottom: 24px;
+}
+
+.choice-card strong {
+    color: #ff9d2e;
+}
+
+/* ==========================================
+   RESULTADOS
+========================================== */
+
+.results {
+    padding: 100px 0;
+    background: #0a1527;
+}
+
+.section-tag {
+    color: #ff8c00;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .8rem;
+}
+
+.results h2,
+.method h2,
+.authority h2 {
+    font-size: 2.8rem;
+    line-height: 1.15;
+    margin-top: 14px;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 48px;
+}
+
+.results-grid div {
+    background: #101d34;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 24px;
+    padding: 28px;
+}
+
+.results-grid strong {
+    display: block;
+    font-size: 2.5rem;
+    color: #ff8c00;
+}
+
+.results-grid span {
+    color: #aeb8c8;
+}
