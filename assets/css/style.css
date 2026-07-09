@@ -356,3 +356,92 @@ a{
 .results-grid span {
     color: #aeb8c8;
 }
+
+/* ==========================================
+   MÉTODO
+========================================== */
+
+.method {
+    padding: 110px 0;
+}
+
+.method-grid {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: 70px;
+}
+
+.steps {
+    display: grid;
+    gap: 18px;
+}
+
+.step {
+    background: #101d34;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 24px;
+    padding: 28px;
+}
+
+.step span {
+    color: #ff8c00;
+    font-weight: 800;
+}
+
+.step h3 {
+    font-size: 1.4rem;
+    margin: 12px 0 8px;
+}
+
+.step p {
+    color: #aeb8c8;
+}
+
+/* ==========================================
+   AUTORIDADE
+========================================== */
+
+.authority {
+    padding: 110px 0;
+    background: #0a1527;
+}
+
+.authority-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.authority-image {
+    min-height: 520px;
+}
+
+.authority-text ul {
+    list-style: none;
+    margin: 32px 0;
+}
+
+.authority-text li {
+    color: #c8d0de;
+    margin-bottom: 14px;
+}
+
+.authority-text li::before {
+    content: "✓";
+    color: #ff8c00;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.footer {
+    padding: 34px 0;
+    border-top: 1px solid rgba(255,255,255,.08);
+    text-align: center;
+    color: #8f9aab;
+}
+
